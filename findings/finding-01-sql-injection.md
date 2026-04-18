@@ -57,7 +57,10 @@ No Prepared Statement or Parameterized Query is applied.
 1. Navigate to `http://dibishop.duckdns.org/cart.php`
 2. Inject SQL syntax into the coupon field — the resulting SQL error message confirms the input is executed directly by the database.
 3. Capture the request payload using Burp Suite and save it as `request.txt` for use with SQLMap.
-4. Run SQLMap commands:
+
+<img width="750" height="225" alt="image" src="https://github.com/user-attachments/assets/8d41264f-4ef4-4b70-b0c8-2defe0456eb7" />
+
+5. Run SQLMap commands:
 
 ```bash
 # Step 1: Enumerate databases
@@ -85,6 +88,9 @@ sqlmap -r request.txt \
 ## Exploitation Results
 
 The attacker successfully dumped the `admins` table:
+
+<img width="900" height="206" alt="image" src="https://github.com/user-attachments/assets/4f534fc4-aa1b-4111-9851-c84c81b19c3b" />
+
 
 | **admin_id** | **admin_name** | **admin_email** | **admin_pass (PLAIN TEXT)** |
 |---|---|---|---|
