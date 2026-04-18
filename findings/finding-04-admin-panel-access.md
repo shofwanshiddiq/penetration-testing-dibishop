@@ -49,6 +49,8 @@ No token validation, rate limiting, or IP whitelisting exists on the admin login
 2. Enter the admin email and password obtained from the database dump (see [Finding 1](./finding-01-sql-injection.md) and [Finding 3](./finding-03-plaintext-password.md)).
 3. Full admin access is granted immediately — no additional barriers exist.
 
+<img width="936" height="380" alt="image" src="https://github.com/user-attachments/assets/57caf1dc-fa37-4f0b-90c4-6f3006617fb5" />
+
 ---
 
 ## Impact
