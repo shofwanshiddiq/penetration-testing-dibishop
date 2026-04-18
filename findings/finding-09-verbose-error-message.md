@@ -41,6 +41,9 @@ Classified as **Medium** because it has no direct standalone impact, but activel
 
 When a special SQL character (e.g., `'`) is entered in the coupon code field, the application returns a detailed MySQL error message in the browser — revealing:
 
+<img width="1132" height="141" alt="image" src="https://github.com/user-attachments/assets/4159c104-b2cd-4ebd-9cd8-a72600059539" />
+
+
 - The raw SQL query structure being executed
 - The server-side file path (e.g., `/var/www/html/cart.php`)
 - The line number where the error occurred
