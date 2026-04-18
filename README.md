@@ -1,17 +1,18 @@
 # Penetration Testing and Findings Report
 
-**CONFIDENTIAL**
-
 > **Author:** Muhammad Shofwan Shiddiq  
 > **Program:** Bootcamp Cyber Security [Batch 2]  
 > **Date:** April 2026  
 > **Target:** [http://dibishop.duckdns.org](http://dibishop.duckdns.org)
 
+<img width="1200" height="323" alt="image" src="https://github.com/user-attachments/assets/8d80d120-aee6-475f-a491-6b3750878169" />
+
+
 ---
 
 ## Table of Contents
 
-1. [Executive Summary](#executive-summary) *(this file)*
+1. [Executive Summary](#executive-summary) 
 2. [Scope & Methodology](./02-scope-and-methodology.md)
 3. [Reconnaissance & Attack Narrative](./03-reconnaissance-and-attack-narrative.md)
 4. [Finding Summary](./04-finding-summary.md)
