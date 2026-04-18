@@ -50,9 +50,14 @@ The `c_name` input field is rendered directly without sanitization — no specia
    ```html
    <script>alert(document.cookie)</script>
    ```
+   <img width="1093" height="387" alt="image" src="https://github.com/user-attachments/assets/93db0a87-461f-4c40-8213-ea2007e5c8ee" />
+
 3. Click **Update Account**.
 4. Reload the page — an alert dialog appears displaying the **PHPSESSID** cookie value.
-5. This payload also executes when an **admin** views the customer list in the admin panel.
+   
+   <img width="400" height="113" alt="image" src="https://github.com/user-attachments/assets/44ca9e8f-e7d5-47a3-9292-0d9f9c9ec19a" />
+
+6. This payload also executes when an **admin** views the customer list in the admin panel.
 
 ---
 
