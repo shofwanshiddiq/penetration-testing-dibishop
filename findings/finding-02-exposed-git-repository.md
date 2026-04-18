@@ -40,10 +40,20 @@ Classified as **High** because, although it does not directly grant system acces
 ## Exploitation Steps & Evidence
 
 1. Access `http://dibishop.duckdns.org/.git/HEAD` → returns: `ref: refs/heads/main`
-2. Access `http://dibishop.duckdns.org/.git/config` → returns the remote GitHub repository URL.
-3. From `.git/logs/HEAD`, confirmed the server runs as `root` on a VPS.
-4. Attacker accesses the public GitHub repository: [https://github.com/rezafahmialviandy/Dibimbing-Shop](https://github.com/rezafahmialviandy/Dibimbing-Shop)
-5. With source code access, the attacker can conduct effective white-box penetration testing.
+
+    <img width="428" height="57" alt="image" src="https://github.com/user-attachments/assets/c6a096be-0e71-40f1-a3be-94ecb40a6a53" />
+
+3. Access `http://dibishop.duckdns.org/.git/config` → returns the remote GitHub repository URL.
+
+    <img width="586" height="147" alt="image" src="https://github.com/user-attachments/assets/08db9495-fdc5-4d28-bd74-1228728ce8a4" />
+
+
+5. From `.git/logs/HEAD`, confirmed the server runs as `root` on a VPS.
+
+    <img width="857" height="153" alt="image" src="https://github.com/user-attachments/assets/dfaccbe7-cfbb-409b-bbf8-a3cdf28e1e0b" />
+
+7. Attacker accesses the public GitHub repository: [https://github.com/rezafahmialviandy/Dibimbing-Shop](https://github.com/rezafahmialviandy/Dibimbing-Shop)
+8. With source code access, the attacker can conduct effective white-box penetration testing.
 
 ---
 
