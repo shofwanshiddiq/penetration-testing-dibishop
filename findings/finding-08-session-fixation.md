@@ -49,9 +49,23 @@ Classified as **Medium** because it requires user interaction and social enginee
 
 ## Evidence
 
+
+
 **Admin Panel:** Session ID before login = Session ID after login *(no change)*.
 
+<img width="700" height="312" alt="image" src="https://github.com/user-attachments/assets/228426a9-06a8-4f2f-b63d-50dfbb162670" />
+
+<img width="700" height="235" alt="image" src="https://github.com/user-attachments/assets/e2bce38e-30f4-44ba-98d3-204a7ce21ca4" />
+
+---
+
 **User Panel:** Session ID before login = Session ID after login *(no change)*.
+
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/d3b2c45c-a2dd-4e58-aa06-0ef01d77eb90" />
+
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/f72efa41-886a-4fd2-9247-6a0381f9afe6" />
+
+---
 
 The `session_regenerate_id()` call is absent from both the admin and user login handlers.
 
