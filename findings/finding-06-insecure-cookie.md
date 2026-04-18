@@ -41,6 +41,9 @@ Classified as **Medium** because it requires additional conditions — such as a
 
 When the XSS script runs (see [Finding 5](./finding-05-stored-xss.md)), the `PHPSESSID` value is directly visible via `document.cookie` and displayed in an alert dialog — confirming the cookie lacks the `HttpOnly` flag.
 
+<img width="400" height="113" alt="image" src="https://github.com/user-attachments/assets/c9ccbd92-24dc-4d3d-a0f0-5c278536a578" />
+
+
 ---
 
 ## Attack Chain
